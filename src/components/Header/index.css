@@ -1,0 +1,38 @@
+.nav-header {
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  list-style-type: none;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.links-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.nav-heading {
+  color: white;
+  font-size: 18px;
+}
+
+.logout-btn {
+  background-color: #4f46e5;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+}
